@@ -1,0 +1,220 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffbff; /* Background color */
+    color: #04030f; /* Main text color */
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #362417; /* Dark Brown color */
+    padding: 15px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f1dabf; /* Light cream color for the logo */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f1dabf; /* Light cream color for links */
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #92817a; /* Medium Beige color on hover */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-color: #92817a; /* Background of the hero section */
+    padding: 50px;
+}
+
+.hero h1 {
+    color: #362417; /* Dark brown text color */
+    font-size: 36px;
+}
+
+.hero p {
+    color: #fffbff; /* White for hero section description */
+    font-size: 18px;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Authentication Section */
+.authentication {
+    background-color: #f1dabf; /* Light cream background */
+    padding: 40px;
+    text-align: center;
+}
+
+.authentication h2 {
+    color: #362417; /* Dark brown heading */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.auth-form {
+    display: inline-block;
+    text-align: left;
+}
+
+.auth-form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #92817a;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.auth-form button {
+    background-color: #362417; /* Dark brown for buttons */
+    color: #fffbff; /* White text on buttons */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover {
+    background-color: #92817a; /* Beige hover for buttons */
+}
+
+.auth-message {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Menu Section */
+.menu {
+    padding: 50px;
+    background-color: #fffbff; /* White background */
+    text-align: center;
+}
+
+.menu h2 {
+    color: #362417; /* Dark brown heading */
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu .item {
+    background-color: #f1dabf; /* Light cream for meal cards */
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+.menu .item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.menu .item h3 {
+    color: #362417; /* Dark brown meal title */
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.menu .item p {
+    color: #92817a; /* Beige meal description */
+    font-size: 16px;
+}
+
+.menu .item button {
+    background-color: #362417; /* Dark brown for buttons */
+    color: #fffbff; /* White text */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.menu .item button:hover {
+    background-color: #92817a; /* Beige hover effect */
+}
+
+/* Reviews Section */
+.reviews {
+    background-color: #92817a; /* Beige background for reviews */
+    padding: 50px;
+    text-align: center;
+}
+
+.reviews h2 {
+    color: #fffbff; /* White heading for reviews */
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.reviews .review {
+    background-color: #f1dabf; /* Light cream background for review cards */
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.reviews .review img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.reviews .review p {
+    color: #362417; /* Dark brown review text */
+    font-size: 16px;
+}
+
+.reviews .review span {
+    color: #fffbff; /* White stars */
+    font-size: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #362417; /* Dark brown footer */
+    color: #fffbff; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
